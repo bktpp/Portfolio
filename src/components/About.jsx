@@ -32,7 +32,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                      I'm <span className="text-primary">Bradley Padayao,</span> an Email Developer
                   </h2>
                   <p className={darkTheme ? "text-white-50" : ""}>
-                     Hello! I'm a self taught email and web developer with a passion for learning
+                     Hello! I am a self taught email and web developer with a passion for learning
                      and growing in this industry. My journey into web development started as a
                      hobby which quickly turned into pursuing this professionally. I've spent
                      countless hours honing my skills and I bring this commitment to every project I
@@ -59,7 +59,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                         </li>
                         <li>
                            <span className="fw-600 me-2">Email:</span>
-                           <a href="mailto:chat@simone.com">bktp@protonmail.ch</a>
+                           <a href="mailto:bktp@protonmail.ch">bktp@protonmail.ch</a>
                         </li>
                         {/* <li>
                            <span className="fw-600 me-2">Age:</span>35

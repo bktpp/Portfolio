@@ -24,9 +24,9 @@ const Services = ({ classicHeader, darkTheme }) => {
          icon: "fas fa-laptop",
       },
       {
-         name: "Business Analysis",
-         desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-         icon: "fas fa-chart-area",
+         name: "Comprehensive Email Testing",
+         desc: "Email testing to ensure they display correctly across different email clients, devices, and browsers. This includes testing for visual rendering and link functionality.",
+         icon: "fa-regular fa-square-check",
       },
       {
          name: "Website Maintenance and Support",

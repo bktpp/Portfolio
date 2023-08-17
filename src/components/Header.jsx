@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tooltip } from "./Tooltip";
+// import { Tooltip } from "./Tooltip";
 import { Link } from "react-scroll";
 
 const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
@@ -163,7 +163,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                      </li>
                   </ul>
                </div>
-               <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+               {/* <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
                   <li className="social-icons-facebook">
                      <Tooltip text="Facebook" placement="top">
                         <a
@@ -200,7 +200,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                         </a>
                      </Tooltip>
                   </li>
-               </ul>
+               </ul> */}
                <button
                   onClick={(e) => {
                      setIsNavModalClose(!isNavModalClose);

@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
-import { Tooltip } from "./Tooltip";
+// import { Tooltip } from "./Tooltip";
 
 const Contact = ({ classicHeader, darkTheme }) => {
    const form = useRef();
@@ -103,7 +103,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                      </span>
                      bktp@protonmail.ch
                   </p>
-                  <h2 className={"mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")}>
+                  {/* <h2 className={"mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")}>
                      Follow Me
                   </h2>
                   <ul
@@ -167,7 +167,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                            </a>
                         </Tooltip>
                      </li>
-                  </ul>
+                  </ul> */}
                </div>
                {/* contact form */}
                <div className="col-md-8 col-xl-9 order-0 order-md-1">

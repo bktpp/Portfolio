@@ -46,7 +46,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
          yearRange: "2016 - 2017",
          title: "Head Tech",
          place: "Batteries Plus Bulbs",
-         desc: "Perform cell phone repairs, install vehicle batteries and train other techs.",
+         desc: "Perform cell phone repairs, install vehicle batteries and train other technicians.",
       },
    ];
 
