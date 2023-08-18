@@ -25,12 +25,12 @@ const Services = ({ classicHeader, darkTheme }) => {
       },
       {
          name: "Comprehensive Email Testing",
-         desc: "Email testing to ensure they display correctly across different email clients, devices, and browsers. This includes testing for visual rendering and link functionality.",
+         desc: "Email testing to ensure content displayed correctly across different email clients, devices, and browsers. This includes testing for visual rendering and link functionality.",
          icon: "fa-regular fa-square-check",
       },
       {
          name: "Website Maintenance and Support",
-         desc: "Provide ongoing maintenance and support to keep websites updated, secure, and functioning smoothly, including content updates, bug fixes, and performance.",
+         desc: "Provide ongoing maintenance and support to keep websites updated, secure, and functioning smoothly. This includes content updates, bug fixes, and performance.",
          icon: "fas fa-screwdriver-wrench",
       },
    ];
