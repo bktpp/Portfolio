@@ -1,5 +1,5 @@
 import React from "react";
-// import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/resume.pdf";
 import imgHtml from "../img/html5.png";
 import imgCss from "../img/css3.png";
 import imgJs from "../img/javascript.png";
@@ -200,9 +200,9 @@ const Resume = ({ classicHeader, darkTheme }) => {
             <div className="text-center mt-5">
                <a
                   className="btn btn-outline-secondary rounded-pill shadow-none"
-                  href="about"
-                  // href={resumeFile}
-                  // download
+                  // href="about"
+                  href={resumeFile}
+                  download
                >
                   Download CV
                   <span className="ms-1">

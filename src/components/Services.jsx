@@ -4,7 +4,7 @@ const Services = ({ classicHeader, darkTheme }) => {
    // services details
    const services = [
       {
-         name: "Resonsive Email Template",
+         name: "Responsive Email Template",
          desc: "Create visually appealing and mobile-friendly email templates that render well across different email clients and devices.",
          icon: "fas fa-mobile-screen",
       },

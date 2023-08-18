@@ -127,7 +127,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             mail: "mailto:example@gmail.com",
          },
          thumbImage: "images/projects/spectrum-email.png",
-         sliderImages: ["images/projects/project-7.jpg"],
+         sliderImages: ["images/projects/spectrum-email-2.png"],
          categories: [filters.PROMO],
          type: "Promotional email",
       },
@@ -136,7 +136,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          projectInfo:
             "Built with HTML and CSS, This project not only demonstrates my proficiency in these languages but also my ability to replicate real-world marketing materials.",
          client: "Ruby Clinton",
-         technologies: "iOS, HTML5, CSS3, PHP, Java",
+         technologies: "HTML, CSS",
          industry: "Art & Design",
          date: "July 16, 2019",
          url: {
@@ -155,14 +155,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             mail: "mailto:example@gmail.com",
          },
          thumbImage: "images/projects/netlify-email.png",
-         sliderImages: ["images/projects/project-7.jpg"],
+         sliderImages: ["images/projects/netlify-email-2.png"],
          categories: [filters.NEWSLETTER],
          type: "Newsletter email",
       },
       {
          title: "Best Buy clone",
          projectInfo:
-            "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+            "The purpose of this project is to showcase my ability to recreate and design transactional emails with an emphasis on detail and accuracy. Demonstrating my understanding of the importance of transactional emails in maintaining customer relationships and driving repeat business.",
          client: "Ruby Clinton",
          technologies: "HTML, CSS",
          industry: "Art & Design",
@@ -183,14 +183,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             mail: "mailto:example@gmail.com",
          },
          thumbImage: "images/projects/bestbuy.png",
-         sliderImages: ["images/projects/project-7.jpg"],
+         sliderImages: ["images/projects/bestbuy-2.png"],
          categories: [filters.TRANSACTIONAL],
          type: "Transactional email",
       },
       {
          title: "Bath & Body Works clone",
          projectInfo:
-            "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+            "This project mirrors the structure and content of an original Bath & Body Works promotional email. It shows my ability to recreate the precise layout and content while adhering to best practices in email development.",
          client: "Ruby Clinton",
          technologies: "HTML, CSS",
          industry: "Art & Design",
