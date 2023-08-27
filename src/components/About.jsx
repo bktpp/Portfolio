@@ -29,7 +29,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                {/* About me content start */}
                <div className="col-lg-7 col-xl-8 text-center text-lg-start">
                   <h2 className={"text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")}>
-                     I'm <span className="text-primary">Bradley Padayao,</span> an Email Developer
+                     I'm <span className="text-primary">Bradley Padayao,</span> a Web Developer
                   </h2>
                   <p className={darkTheme ? "text-white-50" : ""}>
                      Hello! I am a self taught email and web developer with a passion for learning
