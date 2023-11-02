@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Tooltip } from "./Tooltip";
+import { Tooltip } from "./Tooltip";
 import { Link } from "react-scroll";
 
 const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
@@ -163,7 +163,9 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                      </li>
                   </ul>
                </div>
-               {/* <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+               <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+                  {" "}
+                  {/* 
                   <li className="social-icons-facebook">
                      <Tooltip text="Facebook" placement="top">
                         <a
@@ -181,26 +183,30 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                            <i className="fab fa-twitter" />
                         </a>
                      </Tooltip>
-                  </li>
-                  <li className="social-icons-dribbble">
-                     <Tooltip text="Dribbble" placement="top">
+                  </li> */}
+                  <li className="social-icons-linkedin">
+                     <Tooltip text="LinkedIn" placement="top">
                         <a
-                           href="http://www.dribbble.com/"
+                           href="https://www.linkedin.com/in/bradley-padayao/"
                            target="_blank"
                            rel="noopener noreferrer"
                         >
-                           <i className="fab fa-dribbble" />
+                           <i className="fab fa-linkedin-in" />
                         </a>
                      </Tooltip>
                   </li>
                   <li className="social-icons-github">
-                     <Tooltip text="Google" placement="top">
-                        <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                     <Tooltip text="GitHub" placement="top">
+                        <a
+                           href="https://github.com/bktpp"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
                            <i className="fab fa-github" />
                         </a>
                      </Tooltip>
                   </li>
-               </ul> */}
+               </ul>
                <button
                   onClick={(e) => {
                      setIsNavModalClose(!isNavModalClose);

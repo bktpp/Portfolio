@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
-// import { Tooltip } from "./Tooltip";
+import { Tooltip } from "./Tooltip";
 
 const Contact = ({ classicHeader, darkTheme }) => {
    const form = useRef();
@@ -103,7 +103,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                      </span>
                      bktp@protonmail.ch
                   </p>
-                  {/* <h2 className={"mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")}>
+                  <h2 className={"mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")}>
                      Follow Me
                   </h2>
                   <ul
@@ -112,7 +112,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                         (darkTheme ? "social-icons-muted" : "")
                      }
                   >
-                     <li className="social-icons-dribbble">
+                     {/* <li className="social-icons-dribbble">
                         <Tooltip text="Dribbble" placement="top">
                            <a
                               href="http://www.dribbble.com/harnishdesign/"
@@ -122,8 +122,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
                               <i className="fab fa-dribbble" />
                            </a>
                         </Tooltip>
-                     </li>
-                     <li className="social-icons-twitter">
+                     </li> 
+                      <li className="social-icons-twitter">
                         <Tooltip text="Twitter" placement="top">
                            <a
                               href="https://twitter.com/harnishdesign/"
@@ -133,8 +133,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
                               <i className="fab fa-twitter" />
                            </a>
                         </Tooltip>
-                     </li>
-                     <li className="social-icons-facebook">
+                     </li> 
+                      <li className="social-icons-facebook">
                         <Tooltip text="Facebook" placement="top">
                            <a
                               href="http://www.facebook.com/harnishdesign/"
@@ -144,22 +144,22 @@ const Contact = ({ classicHeader, darkTheme }) => {
                               <i className="fab fa-facebook-f" />
                            </a>
                         </Tooltip>
-                     </li>
-                     <li className="social-icons-google">
-                        <Tooltip text="Google" placement="top">
+                     </li> */}
+                     <li className="social-icons-linkedin">
+                        <Tooltip text="LinkedIn" placement="top">
                            <a
-                              href="http://www.google.com/"
+                              href="https://www.linkedin.com/in/bradley-padayao/"
                               target="_blank"
                               rel="noopener noreferrer"
                            >
-                              <i className="fab fa-google" />
+                              <i className="fab fa-linkedin-in" />
                            </a>
                         </Tooltip>
                      </li>
                      <li className="social-icons-github">
-                        <Tooltip text="Github" placement="top">
+                        <Tooltip text="GitHub" placement="top">
                            <a
-                              href="http://www.github.com/"
+                              href="https://github.com/bktpp"
                               target="_blank"
                               rel="noopener noreferrer"
                            >
@@ -167,7 +167,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                            </a>
                         </Tooltip>
                      </li>
-                  </ul> */}
+                  </ul>{" "}
                </div>
                {/* contact form */}
                <div className="col-md-8 col-xl-9 order-0 order-md-1">

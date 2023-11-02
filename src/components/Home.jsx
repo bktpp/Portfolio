@@ -37,7 +37,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                               options={{
                                  strings: [
                                     "I'm Bradley Padayao.",
-                                    "I'm an Email Developer.",
+                                    "I'm a React Developer.",
                                     "I'm a Web Developer.",
                                  ],
                                  autoStart: true,

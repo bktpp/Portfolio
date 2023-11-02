@@ -32,11 +32,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                      I'm <span className="text-primary">Bradley Padayao,</span> a Web Developer
                   </h2>
                   <p className={darkTheme ? "text-white-50" : ""}>
-                     Hello! I am a self taught email and web developer with a passion for learning
-                     and growing in this industry. My journey into web development started as a
-                     hobby which quickly turned into pursuing this professionally. I've spent
-                     countless hours honing my skills and I bring this commitment to every project I
-                     take on.
+                     Hello! I am a self web developer with a passion for learning and growing in
+                     this industry. My journey into web development started as a hobby which quickly
+                     turned into pursuing this professionally. I've spent countless hours honing my
+                     skills and I bring this commitment to every project I take on.
                   </p>
                   <p className={darkTheme ? "text-white-50" : ""}>
                      My goal is to create user-friendly interfaces that meets the needs of the

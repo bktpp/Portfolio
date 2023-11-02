@@ -10,27 +10,27 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
    const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
    const filters = {
+      EMAIL: "Email",
+      WEBAPP: "Web-app",
       WEBPAGE: "Webpage",
-      TRANSACTIONAL: "Transactional",
-      PROMO: "Promotional",
-      NEWSLETTER: "Newsletter",
    };
 
    const projectsData = [
       {
-         title: "Apple.com clone",
+         title: "Vintage Apparel",
          projectInfo:
-            "This project is a reconstruction of Apple's homepage, demonstrating my understanding of modern web development and design principles. It's a testament to my skills in responsive design, and the ability to accurately replicate complex websites.",
-         //  client: "Ruby Clinton",
-         technologies: "HTML, CSS, SASS",
+            "Developed an e-commerce website, using modern web technologies including React for dynamic user interfaces, Styled Components for sleek and responsive design, and Firebase for seamless authentication, real-time database management, and secure transactions. The project offers a user-friendly shopping experience with a wide selection of items for everyone.",
+         client: "Ruby Clinton",
+         technologies: "React, JavaScript, Styled components, Firebase",
+         industry: "Art & Design",
          date: "July 16, 2019",
          url: {
-            name: "bktpp.github.io/Apple-clone",
-            link: "https://bktpp.github.io/Apple-clone/",
+            name: "https://vintage-apparel.netlify.app/",
+            link: "https://vintage-apparel.netlify.app/",
          },
          code: {
-            name: "github.com/bktpp/Apple-clone",
-            link: "https://github.com/bktpp/Apple-clone",
+            name: "https://github.com/bktpp/vintage-apparel",
+            link: "https://github.com/bktpp/vintage-apparel",
          },
          socialLinks: {
             facebook: "http://www.facebook.com/",
@@ -39,14 +39,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             instagram: "http://www.instagram.com/",
             mail: "mailto:example@gmail.com",
          },
-         thumbImage: "images/projects/apple-landing.png",
+         thumbImage: "images/projects/vin-app-1.png",
          sliderImages: [
-            "images/projects/apple-landing-2.png",
-            "images/projects/apple-landing-3.png",
+            "images/projects/vin-app-2.png",
+            "images/projects/vin-app-3.png",
+            "images/projects/vin-app-4.png",
          ],
-         categories: [filters.WEBPAGE],
-         type: "Landing Page",
+         categories: [filters.WEBAPP],
+         type: "Web Application",
       },
+
       {
          title: "Google Play clone",
          projectInfo:
@@ -72,7 +74,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          },
          thumbImage: "images/projects/gp-email.png",
          // sliderImages: ["images/projects/gp-email-2.png"],
-         categories: [filters.TRANSACTIONAL],
+         categories: [filters.EMAIL],
          type: "Transactional email",
       },
       {
@@ -128,7 +130,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          },
          thumbImage: "images/projects/spectrum-email.png",
          sliderImages: ["images/projects/spectrum-email-2.png"],
-         categories: [filters.PROMO],
+         categories: [filters.EMAIL],
          type: "Promotional email",
       },
       {
@@ -156,24 +158,23 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          },
          thumbImage: "images/projects/netlify-email.png",
          sliderImages: ["images/projects/netlify-email-2.png"],
-         categories: [filters.NEWSLETTER],
+         categories: [filters.EMAIL],
          type: "Newsletter email",
       },
       {
-         title: "Best Buy clone",
+         title: "Apple.com clone",
          projectInfo:
-            "The purpose of this project is to showcase my ability to recreate and design transactional emails with an emphasis on detail and accuracy. Demonstrating my understanding of the importance of transactional emails in maintaining customer relationships and driving repeat business.",
-         client: "Ruby Clinton",
-         technologies: "HTML, CSS",
-         industry: "Art & Design",
+            "This project is a reconstruction of Apple's homepage, demonstrating my understanding of modern web development and design principles. It's a testament to my skills in responsive design, and the ability to accurately replicate complex websites.",
+         //  client: "Ruby Clinton",
+         technologies: "HTML, CSS, SASS",
          date: "July 16, 2019",
          url: {
-            name: "bktpp.github.io/demo-bestbuy-receipt/",
-            link: "https://bktpp.github.io/demo-bestbuy-receipt/",
+            name: "bktpp.github.io/Apple-clone",
+            link: "https://bktpp.github.io/Apple-clone/",
          },
          code: {
-            name: "github.com/bktpp/demo-bestbuy-receipt",
-            link: "https://github.com/bktpp/demo-bestbuy-receipt",
+            name: "github.com/bktpp/Apple-clone",
+            link: "https://github.com/bktpp/Apple-clone",
          },
          socialLinks: {
             facebook: "http://www.facebook.com/",
@@ -182,38 +183,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             instagram: "http://www.instagram.com/",
             mail: "mailto:example@gmail.com",
          },
-         thumbImage: "images/projects/bestbuy.png",
-         sliderImages: ["images/projects/bestbuy-2.png"],
-         categories: [filters.TRANSACTIONAL],
-         type: "Transactional email",
-      },
-      {
-         title: "Bath & Body Works clone",
-         projectInfo:
-            "This project mirrors the structure and content of an original Bath & Body Works promotional email. It shows my ability to recreate the precise layout and content while adhering to best practices in email development.",
-         client: "Ruby Clinton",
-         technologies: "HTML, CSS",
-         industry: "Art & Design",
-         date: "July 16, 2019",
-         url: {
-            name: "bktpp.github.io/bath-body-works-demo/",
-            link: "https://bktpp.github.io/bath-body-works-demo/",
-         },
-         code: {
-            name: "github.com/bktpp/bath-body-works-demo",
-            link: "https://github.com/bktpp/bath-body-works-demo",
-         },
-         socialLinks: {
-            facebook: "http://www.facebook.com/",
-            twitter: "http://www.twitter.com/",
-            google: "http://www.google.com/",
-            instagram: "http://www.instagram.com/",
-            mail: "mailto:example@gmail.com",
-         },
-         thumbImage: "images/projects/bbw.png",
-         sliderImages: ["images/projects/bbw-2.png", "images/projects/bbw-3.png"],
-         categories: [filters.PROMO],
-         type: "Promotional email",
+         thumbImage: "images/projects/apple-landing.png",
+         sliderImages: [
+            "images/projects/apple-landing-2.png",
+            "images/projects/apple-landing-3.png",
+         ],
+         categories: [filters.WEBPAGE],
+         type: "Landing page",
       },
    ];
 
