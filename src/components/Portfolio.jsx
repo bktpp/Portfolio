@@ -106,6 +106,33 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          type: "Landing page",
       },
       {
+         title: "FaceRec",
+         projectInfo:
+            "Full-stack application that leverages the power of Node.js, Express, PostgreSQL, React, and Clarifai's advanced face detection model. Users can easily upload images, allowing the application to detect faces within photos along with the ability to track and manage entries through a robust backend.",
+         //  client: "Ruby Clinton",
+         technologies: "React, Node.js, Express, Postgres, Clarifai API",
+         date: "July 16, 2019",
+         url: {
+            name: "https://facerec-pyvz.onrender.com/",
+            link: "https://facerec-pyvz.onrender.com/",
+         },
+         code: {
+            name: "https://github.com/bktpp/face-rec",
+            link: "https://github.com/bktpp/face-rec",
+         },
+         socialLinks: {
+            facebook: "http://www.facebook.com/",
+            twitter: "http://www.twitter.com/",
+            google: "http://www.google.com/",
+            instagram: "http://www.instagram.com/",
+            mail: "mailto:example@gmail.com",
+         },
+         thumbImage: "./images/projects/face-rec-1.png",
+         sliderImages: ["images/projects/face-rec-2.png"],
+         categories: [filters.WEBAPP],
+         type: "Web Application",
+      },
+      {
          title: "Spectrum clone",
          projectInfo:
             "This project showcases my ability to design and code HTML emails that are visually appealing, responsive, and effective in achieving marketing goals. It mirrors the structure and content of an original Spectrum promotional email.",
@@ -132,34 +159,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          sliderImages: ["images/projects/spectrum-email-2.png"],
          categories: [filters.EMAIL],
          type: "Promotional email",
-      },
-      {
-         title: "Netlify clone",
-         projectInfo:
-            "Built with HTML and CSS, This project not only demonstrates my proficiency in these languages but also my ability to replicate real-world marketing materials.",
-         client: "Ruby Clinton",
-         technologies: "HTML, CSS",
-         industry: "Art & Design",
-         date: "July 16, 2019",
-         url: {
-            name: "bktpp.github.io/Netlify-newletter-demo/",
-            link: "https://bktpp.github.io/Netlify-newletter-demo/",
-         },
-         code: {
-            name: "github.com/bktpp/Netlify-newletter-demo",
-            link: "https://github.com/bktpp/Netlify-newletter-demo",
-         },
-         socialLinks: {
-            facebook: "http://www.facebook.com/",
-            twitter: "http://www.twitter.com/",
-            google: "http://www.google.com/",
-            instagram: "http://www.instagram.com/",
-            mail: "mailto:example@gmail.com",
-         },
-         thumbImage: "images/projects/netlify-email.png",
-         sliderImages: ["images/projects/netlify-email-2.png"],
-         categories: [filters.EMAIL],
-         type: "Newsletter email",
       },
       {
          title: "Apple.com clone",
@@ -190,6 +189,34 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
          ],
          categories: [filters.WEBPAGE],
          type: "Landing page",
+      },
+      {
+         title: "Netlify clone",
+         projectInfo:
+            "Built with HTML and CSS, This project not only demonstrates my proficiency in these languages but also my ability to replicate real-world marketing materials.",
+         client: "Ruby Clinton",
+         technologies: "HTML, CSS",
+         industry: "Art & Design",
+         date: "July 16, 2019",
+         url: {
+            name: "bktpp.github.io/Netlify-newletter-demo/",
+            link: "https://bktpp.github.io/Netlify-newletter-demo/",
+         },
+         code: {
+            name: "github.com/bktpp/Netlify-newletter-demo",
+            link: "https://github.com/bktpp/Netlify-newletter-demo",
+         },
+         socialLinks: {
+            facebook: "http://www.facebook.com/",
+            twitter: "http://www.twitter.com/",
+            google: "http://www.google.com/",
+            instagram: "http://www.instagram.com/",
+            mail: "mailto:example@gmail.com",
+         },
+         thumbImage: "images/projects/netlify-email.png",
+         sliderImages: ["images/projects/netlify-email-2.png"],
+         categories: [filters.EMAIL],
+         type: "Newsletter email",
       },
    ];
 

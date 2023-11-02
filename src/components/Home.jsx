@@ -35,11 +35,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                            <Typewriter
                               options={{
-                                 strings: [
-                                    "I'm Bradley Padayao.",
-                                    "I'm a React Developer.",
-                                    "I'm a Web Developer.",
-                                 ],
+                                 strings: ["I'm Bradley Padayao.", "I'm a Frontend Web Developer."],
                                  autoStart: true,
                                  loop: true,
                               }}
